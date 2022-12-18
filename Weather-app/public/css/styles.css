@@ -1,0 +1,155 @@
+body {
+  	margin: 0;
+  	font-size: 100%;
+  	font-family: 'Open Sans', sans-serif;
+  	color: white;
+  	height: 100%;
+  	background: linear-gradient(to bottom, rgb(43,50,178) 0%, rgb(20,136,204) 100%);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+.search-bar {
+	display: flex;
+	justify-content: center;
+	padding : 1% 0 2% 0;
+}
+
+input[type="text"] {
+	width: 350px;
+	height: 30px;
+	margin-right: 0;
+	font-size: 14px;
+}
+
+button {
+	height: 36px;
+	width: 90px;
+	margin-left: auto;
+	background-color: #fff;
+	border: none;
+}
+
+.city-location {
+	margin-left: 100px;
+	font-size: 2.5em;
+}
+
+.info {
+	width: 35%;
+	height: 50vh;
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+	border-radius: 8px;
+	padding: 0.5%;
+	margin-left: 70px;
+}
+
+.temp {
+  font-size: 5.25em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.apparent-temp {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	padding-right: 1%;
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+  	padding-bottom: 1%;
+  	width: 100%;
+}
+
+.extra-info {
+	width: 25%;
+	height: 50vh;
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	padding: 0.5%;
+}
+
+.icon {
+	align-content: center;
+	width: 150px;
+	height: 150px;
+}
+
+.other-info {
+	width: 25%;
+	height: 50vh;
+	background-color: rgba(255,255,255,0.5);
+	padding-left: 1%;
+	border-radius: 8px;
+	border: none;
+	padding: 0.5%;
+}
+
+.mini {
+	font-size: 1.2em;
+}
+
+.timezone {
+	width: 94%;
+	height: 30vh;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 8px;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.footer {
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	margin-top: 70px;
+	padding-bottom: 2%;
+}
+
+h3 {
+	text-align: center;
+	padding: 1%;
+}
+
+i {
+	padding: 0 35px 0 35px;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+	.information {
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.info{
+		width: 80%;
+	}
+	.extra-info {
+		width: 80%;
+		margin-left: 70px;
+		margin-top: 30px;
+	}
+	.other-info {
+		width: 80%;
+		height: 30vh;
+		margin-left: 70px;
+		margin-top: 30px;
+	}
+	.timezone {
+		width: 80%;
+		height: 32vh;
+	}
+	
+}
